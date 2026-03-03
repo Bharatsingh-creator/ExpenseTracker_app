@@ -1,0 +1,221 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaThin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* --- EXTRA LIGHT (200) --- */
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+/* --- LIGHT (300) --- */
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaLightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* --- REGULAR (400) --- */
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaRegular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* --- MEDIUM (500) --- */
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaMedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaMediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* --- SEMI BOLD (600) --- */
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaSemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaSemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* --- BOLD (700) --- */
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaBoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* --- EXTRA BOLD (800) --- */
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+/* --- BLACK (900) --- */
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaBlack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaBlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@theme {
+  --font-sans: "Lufga", ui-sans-serif, system-ui, sans-serif; /* */
+}
+
+/* --- color variables (light theme) --- */
+:root {
+  /* primary purple */
+  --primary-900: #5347A1;
+  --primary-800: #6657C6;
+  --primary-700: #7664E4;
+  --primary-600: #8470FF;
+  --primary-500: #A498FF;
+  --primary-400: #BFB7FF;
+  --primary-300: #D6D2FF;
+  --primary-200: #ECEAFF;
+  --primary-100: #F5F4FF;
+
+  /* neutral gray */
+  --neutral-900: #111113;
+  --neutral-800: #222226;
+  --neutral-700: #343438;
+  --neutral-600: #45454B;
+  --neutral-500: #56565E;
+  --neutral-400: #82828C;
+  --neutral-300: #A1A1A9;
+  --neutral-200: #D0D0D4;
+  --neutral-100: #EFEFF1;
+
+  --black: #000000;
+  --white: #FFFFFF;
+
+  /* semantic */
+  --success-800: #297B32;
+  --success-200: #E5FAE6;
+  --warning-500: #F9970C;
+  --warning-200: #FEF4E1;
+  --danger-500: #E83838;
+  --danger-200: #FFEBEB;
+}
+
+/* dark theme overrides */
+.dark-mode,
+html.dark-mode {
+  --primary-900: #5347A1; /* keep same or adjust if needed */
+  --primary-800: #6657C6;
+  --primary-700: #7664E4;
+  --primary-600: #8470FF;
+  --primary-500: #A498FF;
+  --primary-400: #BFB7FF;
+  --primary-300: #D6D2FF;
+  --primary-200: #ECEAFF;
+  --primary-100: #F5F4FF;
+
+  --neutral-900: #111113;
+  --neutral-800: #222226;
+  --neutral-700: #343438;
+  --neutral-600: #45454B;
+  --neutral-500: #56565E;
+  --neutral-400: #82828C;
+  --neutral-300: #A1A1A9;
+  --neutral-200: #D0D0D4;
+  --neutral-100: #EFEFF1;
+}
+
+/* custom utility classes referencing variables */
+@layer utilities {
+  .bg-primary-600 { background-color: var(--primary-600); }
+  .bg-primary-500 { background-color: var(--primary-500); }
+  .bg-primary-200 { background-color: var(--primary-200); }
+  .text-primary-700 { color: var(--primary-700); }
+  .text-primary-600 { color: var(--primary-600); }
+  .bg-neutral-100 { background-color: var(--neutral-100); }
+  .bg-neutral-200 { background-color: var(--neutral-200); }
+  .text-neutral-900 { color: var(--neutral-900); }
+  .text-neutral-700 { color: var(--neutral-700); }
+}
+
+/* utility to hide native scrollbar on any scrollable element */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
