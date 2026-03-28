@@ -25,6 +25,6 @@ A full-stack expense tracker with authentication, allowing users to manage their
 
 ```bash
 git clone https://github.com/Bharatsingh-creator/ExpenseTracker_app.git
-cd project-name
+cd EXPENSETRACKER_APP
 npm install
 npm run dev
