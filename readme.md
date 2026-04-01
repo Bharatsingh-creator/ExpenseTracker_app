@@ -1,26 +1,39 @@
-# 💰 2. Expense Tracker (README.md)
+server/
+ ├─ server.js        ← app entry point
+ ├─ config/
+ │   └─ db.js        ← database connection
+ ├─ models/
+ │   └─ User.js      ← database structure
+ ├─ routes/
+ │   └─ authRoutes.js ← URLs (endpoints)
+ ├─ controllers/
+ │   └─ authController.js ← logic
+ └─ middleware/
+     └─ authMiddleware.js ← checks (later)
 
 
-# 💰 Expense Tracker (Full Stack)
+🔄 How frontend + backend work together
+Step-by-step real flow:
 
-A full-stack expense tracker with authentication, allowing users to manage their daily expenses efficiently.
+1️⃣ User opens a page
 
-## ✨ Features
-- 🔐 User authentication (JWT & password hashing)
-- ➕ Add, edit, delete transactions
-- 📊 Track income and expenses
-- 🧾 Persistent data storage
-- 🎨 Smooth animations with Framer Motion
+http://localhost:3000/register
 
-## 🛠️ Tech Stack
-- Frontend: React.js, Tailwind CSS, Framer Motion, Vite
-- Backend: Node.js, Express.js
-- Database: MongoDB
-- Auth: JWT, bcrypt
 
-## ⚙️ Installation
+➡️ Frontend page opens (React)
 
-```bash
-git clone https://github.com/Bharatsingh-creator/ExpenseTracker_app.git
-npm install
-npm run dev
+2️⃣ User fills form and clicks Register
+
+3️⃣ Frontend sends request:
+
+axios.post('/api/auth/register', formData)
+
+
+4️⃣ Backend route runs:
+
+registerUser(req, res)
+
+
+5️⃣ Backend responds:
+
+{ "message": "User registered successfully" }
