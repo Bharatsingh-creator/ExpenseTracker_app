@@ -4,6 +4,9 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from 'react-router-dom'
 import logo from '../assets/icons8-figma.gif'
+import gif from '../assets/Investment data.gif'
+import apple from '../assets/icons8-apple-logo-50.png'
+import google from '../assets/icons8-google-logo-48.png'
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -106,12 +109,12 @@ const Login = () => {
         </div>
         <div className="flex flex-row justify-center gap-2">
           <img
-            src="./src/assets/icons8-google-logo-48.png"
+            src={apple}
             alt="applelogo"
             className="rounded-full border border-[#A1A1A9] cursor-pointer w-10 h-10 p-2"
           />
           <img
-            src="./src/assets/icons8-apple-logo-50.png"
+            src={google}
             alt="applelogo"
             className="rounded-full border border-[#A1A1A9] cursor-pointer w-10 h-10 p-2"
           />
@@ -127,7 +130,7 @@ const Login = () => {
       {/* righthalf */}
       <div className="w-1/2 mt-20">
         <img
-          src="./src/assets/Investment data.gif"
+          src={gif}
           alt="bg"
           className="w-150 h-150 "
         />

@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import { useState} from "react";
 import { useNavigate } from 'react-router-dom'
+import logo from '../assets/icons8-figma.gif'
+import gif from '../assets/Investment data.gif'
+import apple from '../assets/icons8-apple-logo-50.png'
+import google from '../assets/icons8-google-logo-48.png'
 
 
 const Register = () => {
@@ -46,7 +50,7 @@ const Register = () => {
       {/* lefthalf */}
       <div className="mt-4 ml-2 flex gap-2">
         <img
-          src="./src/assets/icons8-figma.gif"
+          src={logo}
           alt="logo"
           className="w-10 h-10"
         />
@@ -122,12 +126,12 @@ const Register = () => {
         </div>
         <div className="flex flex-row justify-center gap-2">
           <img
-            src="./src/assets/icons8-google-logo-48.png"
+            src={apple}
             alt="applelogo"
             className="rounded-full border border-[#A1A1A9] cursor-pointer w-10 h-10 p-2"
           />
           <img
-            src="./src/assets/icons8-apple-logo-50.png"
+            src={google}
             alt="applelogo"
             className="rounded-full border border-[#A1A1A9] cursor-pointer w-10 h-10 p-2"
           />
@@ -146,7 +150,7 @@ const Register = () => {
       {/* righthalf */}
       <div className="w-1/2 mt-20">
         <img
-          src="./src/assets/Investment data.gif"
+          src={gif}
           alt="bg"
           className="w-150 h-150 "
         />
