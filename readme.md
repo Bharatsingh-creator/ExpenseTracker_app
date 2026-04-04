@@ -156,4 +156,5 @@ Feel free to fork this repo and submit a pull request.
 
 If you like this project, give it a ⭐ on GitHub!
 
+<img width="1917" height="930" alt="image" src="https://github.com/user-attachments/assets/413ff23c-47a0-4ac9-8343-99cb286e64d1" />
 
