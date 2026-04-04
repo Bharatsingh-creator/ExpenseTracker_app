@@ -1,22 +1,22 @@
 
-# 💸 Expense Tracker App
+#  Expense Tracker App
 
 A full-stack **Expense Tracker** web application that helps users manage their daily expenses efficiently with secure authentication and a modern UI.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🔐 User Authentication (JWT-based)
-- 🔒 Password Hashing for security
-- ➕ Add, edit, and delete expenses
-- 📊 Track spending easily
-- ⚡ Fast and responsive UI
-- 🌐 RESTful API integration
+-  User Authentication (JWT-based)
+-  Password Hashing for security
+-  Add, edit, and delete expenses
+-  Track spending easily
+-  Fast and responsive UI
+-  RESTful API integration
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 
@@ -39,7 +39,7 @@ A full-stack **Expense Tracker** web application that helps users manage their d
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 
@@ -64,7 +64,7 @@ expense-tracker/
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. User registers and logs in securely  
 2. Passwords are hashed before storing in the database  
@@ -79,7 +79,7 @@ expense-tracker/
 
 ---
 
-## 🔧 Installation & Setup
+##  Installation & Setup
 
 ### 1️⃣ Clone the Repository
 
@@ -123,7 +123,7 @@ npm run dev
 
 ---
 
-## 🌐 API Endpoints (Example)
+##  API Endpoints (Example)
 
 | Method | Endpoint           | Description    |
 | ------ | ------------------ | -------------- |
@@ -135,7 +135,7 @@ npm run dev
 
 ---
 
-## 🔐 Security Features
+##  Security Features
 
 * Password hashing using bcrypt
 * JWT-based authentication
@@ -144,7 +144,7 @@ npm run dev
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome!
 Feel free to fork this repo and submit a pull request.
@@ -152,9 +152,14 @@ Feel free to fork this repo and submit a pull request.
 ---
 
 
-## ⭐ Support
+##  Support
 
 If you like this project, give it a ⭐ on GitHub!
 
-<img width="1917" height="930" alt="image" src="https://github.com/user-attachments/assets/413ff23c-47a0-4ac9-8343-99cb286e64d1" />
+<img width="1917" height="930" alt="image" src="https://github.com/user-attachments/assets/413ff23c-47a0-4ac9-8343-99cb286e64d1" /><img width="1908" height="923" alt="image" src="https://github.com/user-attachments/assets/a4a66517-6025-4757-8c01-61d63a449db5" />
+<img width="1897" height="910" alt="image" src="https://github.com/user-attachments/assets/e48f8ce9-e667-4319-a5c4-1485250d1e04" />
+<img width="1887" height="905" alt="image" src="https://github.com/user-attachments/assets/dc9761d0-81bc-4b58-8c3d-3a5780f86ec1" />
+
+
+
 
